@@ -1,7 +1,7 @@
-AutismData
+TEA pipeline
 =========================
 
-A short description of the project.
+Este repositorio contiene el proyecto de análisis de señales EEG en autismo mediante Machine Learning. 
 
 Project Organization
 ------------
