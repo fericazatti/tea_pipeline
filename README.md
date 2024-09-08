@@ -1,6 +1,7 @@
 TEA pipeline
 =========================
 
+
 Este repositorio contiene el proyecto de análisis de señales EEG en autismo mediante Machine Learning. 
 
 ## Data 
