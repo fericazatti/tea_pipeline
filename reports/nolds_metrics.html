@@ -1,0 +1,62 @@
+<table border="1">
+    <thead>
+        <tr>
+            <th>Métrica</th>
+            <th>Descripción</th>
+            <th>Uso</th>
+            <th>Importancia</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Exponente de Lyapunov</td>
+            <td>Mide la sensibilidad a las condiciones iniciales de un sistema dinámico. Un exponente positivo indica comportamiento caótico.</td>
+            <td>nolds.lyap_r() o nolds.lyap_e()</td>
+            <td>Determina si una serie temporal es caótica y cómo pequeñas perturbaciones iniciales se amplifican con el tiempo.</td>
+        </tr>
+        <tr>
+            <td>Dimensión de Correlación</td>
+            <td>Estima la dimensión fractal de un conjunto de puntos, proporcionando una medida de la complejidad del sistema.</td>
+            <td>nolds.corr_dim()</td>
+            <td>Caracteriza la estructura de atracción de sistemas dinámicos complejos y distingue entre sistemas estocásticos y deterministas.</td>
+        </tr>
+        <tr>
+            <td>Dimensión de Hausdorff</td>
+            <td>Mide la dimensión fractal de una serie temporal, similar a la dimensión de correlación pero con un enfoque diferente.</td>
+            <td>nolds.hurst_rs()</td>
+            <td>Proporciona una visión sobre la rugosidad y la complejidad de la serie temporal.</td>
+        </tr>
+        <tr>
+            <td>Dimensión de Kaplan-Yorke</td>
+            <td>Relacionada con los exponentes de Lyapunov, ofrece una estimación de la dimensión fractal del atractor de un sistema dinámico.</td>
+            <td>nolds.kaplan_yorke()</td>
+            <td>Ayuda a entender la estructura interna del sistema y la coexistencia de caos y orden.</td>
+        </tr>
+        <tr>
+            <td>Exponente de Hurst</td>
+            <td>Evalúa la tendencia de una serie temporal a persistir en su comportamiento (reversión a la media o continuidad).</td>
+            <td>nolds.hurst_rs()</td>
+            <td>Detecta tendencias a largo plazo y caracteriza series con propiedades de auto-similaridad.</td>
+        </tr>
+        <tr>
+            <td>Tiempo de Primera Vuelta</td>
+            <td>Mide el tiempo que tarda el sistema en regresar a un estado similar al inicial.</td>
+            <td>No directamente en nolds, pero se puede calcular mediante análisis complementarios.</td>
+            <td>Indica la estabilidad y periodicidad del sistema.</td>
+        </tr>
+        <tr>
+            <td>Entropía de Permutación</td>
+            <td>Cuantifica la complejidad de una serie temporal mediante el orden de valores.</td>
+            <td>No en nolds, pero se usa comúnmente junto a sus métricas.</td>
+            <td>Proporciona información sobre el grado de desorden y aleatoriedad en la serie temporal.</td>
+        </tr>
+        <tr>
+            <td>Entropía de Kolmogorov-Sinai</td>
+            <td>Relacionada con la tasa de generación de nueva información en un sistema dinámico.</td>
+            <td>No en nolds, pero puede derivarse de otros cálculos.</td>
+            <td>Mide la aleatoriedad y la complejidad dinámica.</td>
+        </tr>
+    </tbody>
+</table>
+
+<p><strong>Cantidad de datos generados por cada registro EEG:</strong> 240 datos</p>
